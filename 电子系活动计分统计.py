@@ -8,9 +8,9 @@ import requests
 import json
 url='https://ssc.sjtu.edu.cn/api/chart/408e24cc/apply/filter'
 #headers={'User-Agent':'Mozilla/5.0'}
-begin_num=117034910001
+begin_num=''  #your student number
 jieguo=[]
-for i in range(268):
+for i in range(10):
     info=[]
     point=0
     number=str(begin_num+i)
